@@ -1,0 +1,13 @@
+{
+  "name": "youthdash-root",
+  "private": true,
+  "workspaces": [
+    "citam-youth-dashboard"
+  ],
+  "scripts": {
+    "dev": "npm --workspace citam-youth-dashboard run dev",
+    "build": "npm --workspace citam-youth-dashboard run build",
+    "lint": "npm --workspace citam-youth-dashboard run lint",
+    "preview": "npm --workspace citam-youth-dashboard run preview"
+  }
+}
